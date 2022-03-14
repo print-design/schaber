@@ -23,7 +23,14 @@ include '../../include/topscripts.php';
                echo "<div class='alert alert-danger mt-3'>$error_message</div>";
             }
             ?>
-            <h1>Области</h1>
+            <div class="row">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="d-flex justify-content-between mb-2">
+                        <h1>Области</h1>
+                        <a href="create.php" class="btn btn-outline-dark"><i class="fas fa-plus"></i>&nbsp;Новая область</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <?php
         include '../../include/footer.php';
