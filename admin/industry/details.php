@@ -1,14 +1,18 @@
 <?php
 include '../../include/topscripts.php';
 
-// Получение данных
-$sql = "select id, name, parent_id from industry order by name";
-$grabber = new Grabber($sql);
-$error_message = $grabber->error;
+$id = filter_input(INPUT_GET, 'id');
 
-$industries = array();
-if(empty($error_message)) {
-    $industries = $grabber->result;
+// Получение объекта
+$name = '';
+$parent = '';
+
+$sql = "select i.name, p.name parent from industry i left join industry p on i.parent_id = p.id where i.id = $id";
+$fetcher = new Fetcher($sql);
+
+if($row = $fetcher->Fetch()) {
+    $name = $row['name'];
+    $parent = $row['parent'];
 }
 ?>
 <!DOCTYPE html>
@@ -32,17 +36,14 @@ if(empty($error_message)) {
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-6">
                     <div class="d-flex justify-content-between mb-2">
-                        <div><h1>Области</h1></div>
-                        <div><a href="create.php" class="btn btn-outline-dark"><i class="fas fa-plus"></i>&nbsp;Новая область</a></div>
+                        <div><h1><?=$name ?></h1></div>
+                        <div><a href="index.php" class="btn btn-outline-dark"><i class="fas fa-list"></i>&nbsp;К списку</a></div>
                     </div>
-                    <?php foreach($industries as $row): ?>
-                    <p><a href="details.php?id=<?=$row['id'] ?>"><?=$row['name'] ?></a></p>
-                    <?php endforeach; ?>
+                    <?php if(!empty($parent)): ?>
+                    <p><?=$parent ?></p>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
-        <?php
-        include '../../include/footer.php';
-        ?>
     </body>
 </html>

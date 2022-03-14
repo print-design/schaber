@@ -26,7 +26,7 @@ include '../include/topscripts.php';
             <div class="row">
                 <div class="col-2">
                     <div class="nav flex-column nav-pills" aria-orientation="vertical">
-                        <a class="nav-link active" href="<?=APPLICATION ?>/admin/industry/">Области</a>
+                        <a class="nav-link btn btn-outline-dark" href="<?=APPLICATION ?>/admin/industry/">Области</a>
                     </div>
                 </div>
             </div>
