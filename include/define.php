@@ -8,16 +8,16 @@ define('DATABASE_USER', 'root');
 define('DATABASE_PASSWORD', '');
 define('DATABASE_NAME', 'schaber');
 
-define('USER_ID', '8uh_87HHGyt_675fr_oolkj_u76TY__iju76ggV');
-define('USERNAME', 'kjUhyg-iJJuuggy___--yh7YYTR5412jN-98JIU');
-define('PASSWORD5', 'jj8_iUY6754_77yGT_76bgFF__098hu_11246bHHG');
-define('FIRST_NAME', 'kjjuYHG654_kkh--IIUY67tyGFRDeerguuYGTF67_98j');
-define('LAST_NAME', '4ij_ujjJJYH_876tgHGVCD__uih675HG_jhut_uuy');
-define('ROLE', 'MKJhytf__iuyTREfgyUH__iu76_7765GVFCffd_8u7y');
-define('ROLE_LOCAL', 'llk___98HUrrhb_ddrelkkjeeffl_445533k344');
-define('LOGIN_TIME', '5_kkijUHY_9887yHGj__98u776BHgytd__juHY');
+define('USER_ID', '334f_ggffDDDF_443fgo__juhhyY33mnhvf_34');
+define('USERNAME', 'ddj_hhyg6555HH_nqvgzsf_yy65423Kjjuyg_5y');
+define('PASSWORD5', 'er_hyggt33462_876JJU_ijyg_7yy6eer_443iiiu');
+define('FIRST_NAME', 'err_rreooki_34jjuh_7yygu_34jjuhuo_37hhygt_4hyu');
+define('LAST_NAME', '_443ijuu8877_77yghGGfrdIuyt_8uuhhg_juhtyttfuyytg');
+define('ROLE', 'juhYY_nhwwhgg78655GGh-MJJHy_hyy___ererRRTT877666');
+define('ROLE_LOCAL', 'kkooIOOO__eerijjHTF5565GYuuuhh__87hhiuyi');
+define('LOGIN_TIME', 'ererkooj_iejjUUUHHU7687_iierju_77er87j_JUHH');
 
-define('SCROLL', 'jIUGGtrJIUUgg---__ijUH67tfRDE8ujjhytRF_kji');
+define('SCROLL', 'koo__8877hHUUG_euruhhuer_kijjy6576FTYTRE_erer88776');
 define('AUTOLOGOUT_MIN', 20);
 
 define('EMAIL_TO', 'sergey_print@bk.ru');
