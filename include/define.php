@@ -1,6 +1,7 @@
 <?php
 define('HOST', '/schaber');
 define('APPLICATION', '/schaber');
+define('SITENAME', 'SCHABER');
 
 define('DATABASE_HOST', 'localhost');
 define('DATABASE_USER', 'root');
