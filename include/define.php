@@ -6,7 +6,7 @@ define('SITENAME', 'SCHABER');
 define('DATABASE_HOST', 'localhost');
 define('DATABASE_USER', 'root');
 define('DATABASE_PASSWORD', '');
-define('DATABASE_NAME', 'erp');
+define('DATABASE_NAME', 'schaber');
 
 define('USER_ID', '8uh_87HHGyt_675fr_oolkj_u76TY__iju76ggV');
 define('USERNAME', 'kjUhyg-iJJuuggy___--yh7YYTR5412jN-98JIU');
