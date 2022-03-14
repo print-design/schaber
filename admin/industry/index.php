@@ -26,8 +26,8 @@ include '../../include/topscripts.php';
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-6">
                     <div class="d-flex justify-content-between mb-2">
-                        <h1>Области</h1>
-                        <a href="create.php" class="btn btn-outline-dark"><i class="fas fa-plus"></i>&nbsp;Новая область</a>
+                        <div><h1>Области</h1></div>
+                        <div><a href="create.php" class="btn btn-outline-dark"><i class="fas fa-plus"></i>&nbsp;Новая область</a></div>
                     </div>
                 </div>
             </div>

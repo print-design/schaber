@@ -13,7 +13,7 @@ if($count > 1) {
 $admin_class = "";
 
 if($folder == 'admin') {
-    $admin_class = " disabled";
+    $admin_class = " active";
 }
 ?>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">

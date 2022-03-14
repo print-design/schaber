@@ -23,7 +23,13 @@ include '../include/topscripts.php';
             }
             ?>
             <h1>Администратор</h1>
-            <p><a href="<?=APPLICATION ?>/admin/industry/">Области</a></p>
+            <div class="row">
+                <div class="col-2">
+                    <div class="nav flex-column nav-pills" aria-orientation="vertical">
+                        <a class="nav-link active" href="<?=APPLICATION ?>/admin/industry/">Области</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <?php
         include '../include/footer.php';
